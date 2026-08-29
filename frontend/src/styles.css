@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  background: #070b10;
+  color: #e7edf4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    linear-gradient(180deg, rgba(17, 27, 37, 0.88), rgba(7, 11, 16, 1)),
+    radial-gradient(circle at top left, rgba(79, 179, 216, 0.12), transparent 30%),
+    #070b10;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.leaflet-container {
+  min-height: 520px;
+  background: #0e151d;
+  border-radius: 8px;
+}
+
+.panel {
+  border: 1px solid rgba(142, 160, 178, 0.18);
+  background: rgba(14, 21, 29, 0.86);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.24);
+  backdrop-filter: blur(14px);
+}
+
+.subtle-scrollbar {
+  scrollbar-color: #35475a transparent;
+  scrollbar-width: thin;
+}

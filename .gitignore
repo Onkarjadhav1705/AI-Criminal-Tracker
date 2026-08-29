@@ -1,0 +1,14 @@
+.pnpm-store/
+.venv/
+venv/
+node_modules/
+.env
+.env.*
+frontend/dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.idea/
+*.tsbuildinfo
